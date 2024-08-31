@@ -1,7 +1,7 @@
-#facctrial de un numero
+#factorial de un numero
 
-#numero=int(input("Ingresa el número que deseas sacarle factorial"))
-
-for x in range(1):
-    print("*" * x)
-
+factorial=int(input("Ingresa el número que deseas sacarle factorial:"))
+resultado=1
+for i in range(1, factorial+1):
+    resultado = resultado*i 
+print ("El factorial de", factorial, "es", resultado)
