@@ -1,4 +1,4 @@
-#Ejercicio en clase, creación de un sistema de control de ingreso para evitar el sobrecupo
+#Ejercicio en clase, creación de un sistema de control de ingreso para evitar el sobrecupo.
 
 totalBoletos = int(input("Ingrese el número total de boletos que van a ingresar:"))
 boletosIngresados = 0

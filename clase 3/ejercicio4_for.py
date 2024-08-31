@@ -1,4 +1,4 @@
-#factorial de un numero
+#factorial de un numero.
 
 factorial=int(input("Ingresa el número que deseas sacarle factorial:"))
 resultado=1

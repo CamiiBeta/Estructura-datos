@@ -1,4 +1,4 @@
-#crear un arreglo con 10 numeros aleatorios imprimir en pantala el promedio de estos numeros:
+#crear un arreglo con 10 numeros aleatorios imprimir en pantala el promedio de estos numeros:.
 
 import random
 numeros=[random.randint(1,100) for i in range (10)]

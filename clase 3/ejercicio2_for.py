@@ -1,4 +1,4 @@
-#Por medio de for generar un triangulo con asteriscos
+#Por medio de for generar un triangulo con asteriscos.
 
 
 altura=int(input("Ingrese la altura:"))
