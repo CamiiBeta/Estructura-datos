@@ -1,6 +1,7 @@
+#Funcion para calcular un factorial
 def calcularFactorial (numero:int)->str|int:
     if numero < 0:
-        return "No se puede, valores negativos"
+        raise ValueError("No se puede, valores negativos")
     resultado = 1
     for n in range(1,numero+1):
             resultado = resultado * n
