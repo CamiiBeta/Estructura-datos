@@ -10,9 +10,7 @@ class Tarea:
         self.fechaVencimiento = datetime.strptime(fechaVencimiento, "%d/%m/%Y")
 
     def __str__(self):
-        return (f"Descripción: {self.descripcion}, "
-                f"Prioridad: {self.prioridad}, "
-                f"Fecha de Vencimiento: {self.fechaVencimiento.strftime('%d/%m/%Y')}")
+        return (f"Descripción: {self.descripcion}, Prioridad: {self.prioridad}, Fecha de Vencimiento: {self.fechaVencimiento.strftime('%d/%m/%Y')}")
     
 class Nodo:
     def __init__(self, tarea:Tarea):
@@ -85,6 +83,7 @@ tarea3 = Tarea("Hacer ejercicio", 3, "22/09/2024")
 listaTareas.agregarTarea(tarea1)
 listaTareas.agregarTarea(tarea2)
 listaTareas.agregarTarea(tarea3)
+print(tarea1)
 listaTareas.mostrarTareas()
 listaTareas.eliminarTarea("Comprar comida")
 listaTareas.eliminarTarea("Ir al cine")
