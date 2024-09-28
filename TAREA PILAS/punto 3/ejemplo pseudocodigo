@@ -1,0 +1,31 @@
+1. Constructor "stack"() --> nosotros con el cosntructor creariamos la pila vacia
+   inicializar "listaVacia" como una lista vacia
+
+2. Funcion "push"(elemento) --> con esta funcion se agregaria el elemento a la pila
+   si el tamaño de "listaVacia" es igual al máximo permitido:
+      imprimir mensaje "error: pila llena"
+   sino:
+      agregar (elemento) a listaVacia
+
+3. Funcion "pop"() --> para eliminar el ultimo elemento de la pila
+   si listaVacia esta vacia:
+      imprimir mensaje "error: pila vaca"
+      retornar nulo
+   sino:
+      retornar Y eliminar el ultimo elemento de listaVacia
+
+4. Funcion "top"() -->esta funcion seria la misma peek y sera para mostrar el ultimo elemento de la lista sin borrarlo
+   si listaVacia esta vacia:
+      imprimir mensaje"error: pila vacia"
+      retornar nulo
+   sino:
+      retornar el ultimo elemento de listaVacia sin eliminarlo
+
+5. Funcion "size"() --> para saber el tamaño de la pila
+   retornar la longitud de listaVacia
+
+6. Funcion isEmpty() -->para saber si la pila esta vacia o no
+   si listaVacia esta vacia:
+      retornar verdadero
+   sino:
+      retornar falso
